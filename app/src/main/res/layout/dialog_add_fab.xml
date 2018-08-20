@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+<com.gainwise.breakthru.CustomTextView
+    android:textAlignment="center"
+    android:paddingBottom="@dimen/fab_margin"
+    android:paddingTop="@dimen/fab_margin"
+    android:id="@+id/add_from_contacts"
+    android:textColor="@color/colorAccent"
+    android:background="@color/colorPrimary"
+    android:textSize="30sp"
+    android:text="Add From Contacts"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#ffffff"/>
+    <com.gainwise.breakthru.CustomTextView
+        android:textAlignment="center"
+        android:paddingBottom="@dimen/fab_margin"
+        android:paddingTop="@dimen/fab_margin"
+        android:id="@+id/add_custom"
+        android:textColor="@color/colorAccent"
+        android:background="@color/colorPrimary"
+        android:textSize="30sp"
+        android:text="Add Custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

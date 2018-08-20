@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+        <com.gainwise.breakthru.CustomTextView
+            android:layout_margin="@dimen/fab_margin"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="Like this app? Please rate on the play store!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:id="@+id/llrate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent">
+
+        <com.gainwise.breakthru.CustomTextView
+            android:layout_margin="@dimen/fab_margin"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:text="RATE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:id="@+id/llnever"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <com.gainwise.breakthru.CustomTextView
+                android:layout_margin="@dimen/fab_margin"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Do Not\nShow Again"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <View
+            android:background="@color/colorPrimaryDark"
+            android:layout_weight=".01"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"/>
+        <LinearLayout
+            android:id="@+id/lllater"
+            android:background="#ffffff"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <com.gainwise.breakthru.CustomTextView
+                android:layout_margin="@dimen/fab_margin"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Maybe Later\nExit Now"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

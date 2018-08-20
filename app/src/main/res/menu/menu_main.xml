@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gainwise.breakthru.MainActivity">
+    <item
+        android:id="@+id/share"
+        android:orderInCategory="100"
+        android:title="SHARE"
+        app:showAsAction="never" />
+</menu>
